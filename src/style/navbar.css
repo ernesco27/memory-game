@@ -1,0 +1,25 @@
+.nav__bar {
+  background-color: #98ba7d;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.nav__text {
+  background-color: var(--primary-color);
+  width: 8.5rem;
+  height: 70%;
+  border-radius: 0.5rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--alternate-color);
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+}

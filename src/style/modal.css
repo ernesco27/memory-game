@@ -1,0 +1,14 @@
+.modal {
+  width: 20rem;
+  height: 10rem;
+  background-color: green;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  position: absolute;
+  top: 12rem;
+  left: 40%;
+}

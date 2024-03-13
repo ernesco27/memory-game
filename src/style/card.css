@@ -1,0 +1,34 @@
+.card {
+  width: 200px;
+  height: 18rem;
+  background-color: var(--secondary-color);
+  border-radius: 2rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  margin-top: 2rem;
+  overflow: hidden;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.img__container {
+  width: 100%;
+  /* height: 80%; */
+  background-color: white;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 4px 5px 6px rgba(251, 214, 134, 0.4),
+    -3px -5px 6px rgba(251, 214, 134, 0.8);
+  cursor: pointer;
+}
+
+.title__div {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  padding: 0 1rem;
+}
